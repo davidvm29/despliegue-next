@@ -6,6 +6,7 @@
     "404": "cp out/404/index.html out/404.html",
     "dev": "next dev",
     "build": "next build && next export",
+    "deploy": "gh-pages -d out -b gh-pages",
     "postbuild": "npm run 404",
     "server": "next start",
     "start": "npm run dev",
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "eslint-config-next": "13.0.6",
+    "gh-pages": "^6.1.1",
     "http-server": "14.1.1",
     "locize-cli": "7.13.1"
   }
