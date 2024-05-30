@@ -10,6 +10,7 @@
     "postbuild": "npm run 404",
     "server": "next start",
     "start": "npm run dev",
+    "export": "next build && next export",
     "lint": "next lint",
     "test": "npm run lint",
     "serve": "http-server out -p 8080",
